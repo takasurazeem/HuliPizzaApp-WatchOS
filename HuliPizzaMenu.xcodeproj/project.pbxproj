@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,41 @@
 		E1BB1A7A24CF322A0031E36C /* PizzaOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB1A7724CF322A0031E36C /* PizzaOrderView.swift */; };
 		E1BB1A7B24CF322A0031E36C /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB1A7824CF322A0031E36C /* MenuModel.swift */; };
 		E1BB1A7C24CF322A0031E36C /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB1A7924CF322A0031E36C /* RowView.swift */; };
+		F96728932AB06CD50080B421 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96728902AB06CD50080B421 /* RowView.swift */; };
+		F96728942AB06CD50080B421 /* PizzaOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96728912AB06CD50080B421 /* PizzaOrderView.swift */; };
+		F96728952AB06CD50080B421 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96728922AB06CD50080B421 /* MenuModel.swift */; };
+		F9A4EC042AB06C19009C550D /* PizzaOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB1A7724CF322A0031E36C /* PizzaOrderView.swift */; };
+		F9A4EC052AB06C19009C550D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB1A7924CF322A0031E36C /* RowView.swift */; };
+		F9AC5B542AB0659E00D36D95 /* HuliPizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC5B532AB0659E00D36D95 /* HuliPizzaApp.swift */; };
+		F9AC5B562AB0659E00D36D95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC5B552AB0659E00D36D95 /* ContentView.swift */; };
+		F9AC5B582AB065A000D36D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AC5B572AB065A000D36D95 /* Assets.xcassets */; };
+		F9AC5B5B2AB065A000D36D95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AC5B5A2AB065A000D36D95 /* Preview Assets.xcassets */; };
+		F9AC5B5E2AB065A000D36D95 /* HuliPizza Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F9AC5B512AB0659E00D36D95 /* HuliPizza Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9AC5B5C2AB065A000D36D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BB1A5D24CF31FB0031E36C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9AC5B502AB0659E00D36D95;
+			remoteInfo = "HuliPizza Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9AC5B5F2AB065A000D36D95 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F9AC5B5E2AB065A000D36D95 /* HuliPizza Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E1BB1A6524CF31FB0031E36C /* HuliPizzaMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizzaMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +60,25 @@
 		E1BB1A7724CF322A0031E36C /* PizzaOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaOrderView.swift; sourceTree = "<group>"; };
 		E1BB1A7824CF322A0031E36C /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		E1BB1A7924CF322A0031E36C /* RowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		F96728902AB06CD50080B421 /* RowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RowView.swift; path = HuliPizzaMenu/RowView.swift; sourceTree = SOURCE_ROOT; };
+		F96728912AB06CD50080B421 /* PizzaOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PizzaOrderView.swift; path = HuliPizzaMenu/PizzaOrderView.swift; sourceTree = SOURCE_ROOT; };
+		F96728922AB06CD50080B421 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuModel.swift; path = HuliPizzaMenu/MenuModel.swift; sourceTree = SOURCE_ROOT; };
+		F9AC5B512AB0659E00D36D95 /* HuliPizza Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HuliPizza Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AC5B532AB0659E00D36D95 /* HuliPizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaApp.swift; sourceTree = "<group>"; };
+		F9AC5B552AB0659E00D36D95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9AC5B572AB065A000D36D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9AC5B5A2AB065A000D36D95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E1BB1A6224CF31FB0031E36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AC5B4E2AB0659E00D36D95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				E1BB1A6724CF31FB0031E36C /* HuliPizzaMenu */,
+				F9AC5B522AB0659E00D36D95 /* HuliPizza Watch App */,
 				E1BB1A6624CF31FB0031E36C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E1BB1A6524CF31FB0031E36C /* HuliPizzaMenu.app */,
+				F9AC5B512AB0659E00D36D95 /* HuliPizza Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +129,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F9AC5B522AB0659E00D36D95 /* HuliPizza Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC5B532AB0659E00D36D95 /* HuliPizzaApp.swift */,
+				F9AC5B552AB0659E00D36D95 /* ContentView.swift */,
+				F96728922AB06CD50080B421 /* MenuModel.swift */,
+				F96728912AB06CD50080B421 /* PizzaOrderView.swift */,
+				F96728902AB06CD50080B421 /* RowView.swift */,
+				F9AC5B572AB065A000D36D95 /* Assets.xcassets */,
+				F9AC5B592AB065A000D36D95 /* Preview Content */,
+			);
+			path = "HuliPizza Watch App";
+			sourceTree = "<group>";
+		};
+		F9AC5B592AB065A000D36D95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC5B5A2AB065A000D36D95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,14 +161,33 @@
 				E1BB1A6124CF31FB0031E36C /* Sources */,
 				E1BB1A6224CF31FB0031E36C /* Frameworks */,
 				E1BB1A6324CF31FB0031E36C /* Resources */,
+				F9AC5B5F2AB065A000D36D95 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9AC5B5D2AB065A000D36D95 /* PBXTargetDependency */,
+			);
+			name = HuliPizzaMenu;
+			productName = HuliPizzaMenu;
+			productReference = E1BB1A6524CF31FB0031E36C /* HuliPizzaMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9AC5B502AB0659E00D36D95 /* HuliPizza Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AC5B622AB065A000D36D95 /* Build configuration list for PBXNativeTarget "HuliPizza Watch App" */;
+			buildPhases = (
+				F9AC5B4D2AB0659E00D36D95 /* Sources */,
+				F9AC5B4E2AB0659E00D36D95 /* Frameworks */,
+				F9AC5B4F2AB0659E00D36D95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HuliPizzaMenu;
-			productName = HuliPizzaMenu;
-			productReference = E1BB1A6524CF31FB0031E36C /* HuliPizzaMenu.app */;
+			name = "HuliPizza Watch App";
+			productName = "HuliPizza Watch App";
+			productReference = F9AC5B512AB0659E00D36D95 /* HuliPizza Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,11 +196,15 @@
 		E1BB1A5D24CF31FB0031E36C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					E1BB1A6424CF31FB0031E36C = {
 						CreatedOnToolsVersion = 12.0;
+					};
+					F9AC5B502AB0659E00D36D95 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
@@ -126,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				E1BB1A6424CF31FB0031E36C /* HuliPizzaMenu */,
+				F9AC5B502AB0659E00D36D95 /* HuliPizza Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +234,15 @@
 			files = (
 				E1BB1A7024CF31FC0031E36C /* Preview Assets.xcassets in Resources */,
 				E1BB1A6D24CF31FC0031E36C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AC5B4F2AB0659E00D36D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AC5B5B2AB065A000D36D95 /* Preview Assets.xcassets in Resources */,
+				F9AC5B582AB065A000D36D95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +261,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9AC5B4D2AB0659E00D36D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A4EC042AB06C19009C550D /* PizzaOrderView.swift in Sources */,
+				F96728932AB06CD50080B421 /* RowView.swift in Sources */,
+				F9A4EC052AB06C19009C550D /* RowView.swift in Sources */,
+				F96728952AB06CD50080B421 /* MenuModel.swift in Sources */,
+				F9AC5B562AB0659E00D36D95 /* ContentView.swift in Sources */,
+				F96728942AB06CD50080B421 /* PizzaOrderView.swift in Sources */,
+				F9AC5B542AB0659E00D36D95 /* HuliPizzaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9AC5B5D2AB065A000D36D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9AC5B502AB0659E00D36D95 /* HuliPizza Watch App */;
+			targetProxy = F9AC5B5C2AB065A000D36D95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E1BB1A7224CF31FC0031E36C /* Debug */ = {
@@ -277,6 +405,7 @@
 		E1BB1A7524CF31FC0031E36C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +428,7 @@
 		E1BB1A7624CF31FC0031E36C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +445,68 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9AC5B602AB065A000D36D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P6DBU8DWFF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HuliPizza;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.makeapppie.HuliPizzaMenu;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizzaMenu.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		F9AC5B612AB065A000D36D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P6DBU8DWFF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HuliPizza;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.makeapppie.HuliPizzaMenu;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizzaMenu.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
 			};
 			name = Release;
 		};
@@ -335,6 +527,15 @@
 			buildConfigurations = (
 				E1BB1A7524CF31FC0031E36C /* Debug */,
 				E1BB1A7624CF31FC0031E36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9AC5B622AB065A000D36D95 /* Build configuration list for PBXNativeTarget "HuliPizza Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AC5B602AB065A000D36D95 /* Debug */,
+				F9AC5B612AB065A000D36D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

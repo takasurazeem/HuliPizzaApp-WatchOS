@@ -9,17 +9,18 @@
 import SwiftUI
 
 struct RowView: View {
-    var menuItem:MenuItem
+    var menuItem: MenuItem
     var body: some View {
         VStack {
             HStack {
-                Image(String(format:"%i_100w",menuItem.id))
-                .resizable()
-                   .frame(width:60,height:60)
-                .scaledToFit()
+                Image(String(format: "%i_100w", menuItem.id))
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .scaledToFit()
                     .clipShape(Circle())
                 Text(menuItem.name)
-                    .font(.largeTitle).fontWeight(.bold)
+                    .font(.caption)
+                    .fontWeight(.bold)
                     .minimumScaleFactor(0.85)
                 Spacer()
             }
