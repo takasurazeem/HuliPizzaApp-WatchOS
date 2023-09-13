@@ -22,7 +22,7 @@ class SelectedItem {
 /// `description` the decription of the food item
 /// `price` the base price for the menu item
 /// `rating` the rating for the menu item
-struct MenuItem: Identifiable {
+struct MenuItem: Identifiable, Hashable {
     var id: Int
     var name: String
     var description: String

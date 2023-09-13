@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Huli Pizza Company")
-            PizzaOrderView()
+        NavigationStack {
+            VStack {
+                Text("Huli Pizza Company")
+                PizzaOrderView()
+            }
         }
     }
 }
