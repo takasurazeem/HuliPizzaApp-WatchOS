@@ -23,6 +23,7 @@ struct RowView: View {
                     .minimumScaleFactor(0.85)
                 Spacer()
             }
+            
             Text(menuItem.description)
             Spacer()
         }

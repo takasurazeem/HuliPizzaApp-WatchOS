@@ -10,6 +10,7 @@ import SwiftUI
 struct PizzaDetailView: View {
     let item: MenuItem
     @Binding var selectedItem: Int!
+    @Environment(\.dismiss) var dismiss
     var body: some View {
         ScrollView {
             VStack {
@@ -20,6 +21,7 @@ struct PizzaDetailView: View {
                     .cornerRadius(10)
                 Button {
                     selectedItem = item.id
+                    dismiss()
                 } label: {
                     Text("Order")
                 }

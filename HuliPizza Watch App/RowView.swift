@@ -24,6 +24,9 @@ struct RowView: View {
                     .minimumScaleFactor(0.85)
                 Spacer()
             }
+            RatingsView(rating: menuItem.rating)
+                .frame(height: 12)
+                .padding()
 //            Text(menuItem.description)
 //            Spacer()
         }

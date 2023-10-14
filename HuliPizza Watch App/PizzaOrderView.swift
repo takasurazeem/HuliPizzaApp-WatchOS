@@ -24,8 +24,10 @@ struct PizzaOrderView: View {
                                 selectedItem: $selectedItem
                             )
                         }
+                        .listItemTint(.green.opacity(selectedItem == item.id ? 0.7 : 0.3))
                     } // foreach
                 } // list
+                .listStyle(.carousel)
             } // Vstack
     }
 }
