@@ -9,11 +9,11 @@ import SwiftUI
 
 struct RatingsDetailsView: View {
     var item: MenuItem
-    @State var myRating: Float = 0
+    @State var myRating: Float = 3
     var body: some View {
         VStack {
 //            Text("\(Int(myRating))")
-            RatingsView(rating: .constant(item.rating))
+            RatingsView(rating: .constant(Int(myRating)))
             Image("\(item.id)_100w")
         }
         .navigationTitle(item.name)
