@@ -20,6 +20,7 @@ struct PizzaDetailView: View {
                 Image("\(item.id)_100w")
                     .cornerRadius(10)
                 Button {
+                    WKInterfaceDevice.current().play(.success)
                     selectedItem = item.id
                     dismiss()
                 } label: {
