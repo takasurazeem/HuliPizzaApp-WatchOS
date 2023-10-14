@@ -11,6 +11,7 @@ struct PizzaDetailView: View {
     let item: MenuItem
     @Binding var selectedItem: Int!
     @State private var isRatingPresented = false
+    @State private var isZooming = false
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -21,6 +22,13 @@ struct PizzaDetailView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                 Image("\(item.id)_100w")
                     .cornerRadius(10)
+                    .onTapGesture {
+                        isZooming.toggle()
+                        WKInterfaceDevice.current().play(.click)
+                    }
+                    .sheet(isPresented: $isZooming, content: {
+                        ZoomView(item: item)
+                    })
                 Button {
                     WKInterfaceDevice.current().play(.success)
                     selectedItem = item.id

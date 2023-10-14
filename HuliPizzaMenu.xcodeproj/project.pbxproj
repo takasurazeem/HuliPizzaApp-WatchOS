@@ -10,6 +10,7 @@
 		763E04972ADAF25500045F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BB1A6C24CF31FC0031E36C /* Assets.xcassets */; };
 		7685DB0B2ADAD9A4005A5532 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685DB0A2ADAD9A4005A5532 /* RatingsView.swift */; };
 		7685DB0D2ADADA5B005A5532 /* RatingsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685DB0C2ADADA5B005A5532 /* RatingsDetailsView.swift */; };
+		76A9D4792ADB249C00D07978 /* ZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A9D4782ADB249C00D07978 /* ZoomView.swift */; };
 		E1BB1A6924CF31FB0031E36C /* HuliPizzaMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB1A6824CF31FB0031E36C /* HuliPizzaMenuApp.swift */; };
 		E1BB1A6B24CF31FB0031E36C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB1A6A24CF31FB0031E36C /* ContentView.swift */; };
 		E1BB1A6D24CF31FC0031E36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BB1A6C24CF31FC0031E36C /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		7685DB0A2ADAD9A4005A5532 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 		7685DB0C2ADADA5B005A5532 /* RatingsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsDetailsView.swift; sourceTree = "<group>"; };
+		76A9D4782ADB249C00D07978 /* ZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomView.swift; sourceTree = "<group>"; };
 		E1BB1A6524CF31FB0031E36C /* HuliPizzaMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizzaMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BB1A6824CF31FB0031E36C /* HuliPizzaMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaMenuApp.swift; sourceTree = "<group>"; };
 		E1BB1A6A24CF31FB0031E36C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				F967289A2AB073CA0080B421 /* PizzaDetailView.swift */,
 				7685DB0A2ADAD9A4005A5532 /* RatingsView.swift */,
 				7685DB0C2ADADA5B005A5532 /* RatingsDetailsView.swift */,
+				76A9D4782ADB249C00D07978 /* ZoomView.swift */,
 				F9AC5B572AB065A000D36D95 /* Assets.xcassets */,
 				F9AC5B592AB065A000D36D95 /* Preview Content */,
 			);
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F967289B2AB073CA0080B421 /* PizzaDetailView.swift in Sources */,
+				76A9D4792ADB249C00D07978 /* ZoomView.swift in Sources */,
 				7685DB0B2ADAD9A4005A5532 /* RatingsView.swift in Sources */,
 				F96728952AB06CD50080B421 /* MenuModel.swift in Sources */,
 				F96728A52AB0747A0080B421 /* RowView.swift in Sources */,
