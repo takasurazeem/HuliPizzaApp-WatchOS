@@ -25,6 +25,12 @@ struct PizzaDetailView: View {
                 }
 
                 Text(item.description)
+                NavigationLink {
+                    RatingsDetailsView(item: item)
+                } label: {
+                    Text("Ratings")
+                }
+
             }
             .navigationTitle(item.name)
         }
