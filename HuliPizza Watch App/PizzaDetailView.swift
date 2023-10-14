@@ -10,7 +10,9 @@ import SwiftUI
 struct PizzaDetailView: View {
     let item: MenuItem
     @Binding var selectedItem: Int!
+    @State private var isRatingPresented = false
     @Environment(\.dismiss) var dismiss
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -28,12 +30,19 @@ struct PizzaDetailView: View {
                 }
 
                 Text(item.description)
-                NavigationLink {
-                    RatingsDetailsView(item: item)
+//                NavigationLink {
+//                    RatingsDetailsView(item: item)
+//                } label: {
+//                    Text("Ratings")
+//                }
+                Button {
+                    self.isRatingPresented = true
                 } label: {
                     Text("Ratings")
                 }
-
+            }
+            .fullScreenCover(isPresented: $isRatingPresented) {
+                RatingsDetailsView(item: item)
             }
             .navigationTitle(item.name)
         }
