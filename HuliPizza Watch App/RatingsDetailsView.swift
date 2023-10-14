@@ -9,12 +9,24 @@ import SwiftUI
 
 struct RatingsDetailsView: View {
     var item: MenuItem
+    @State var myRating: Float = 0
     var body: some View {
         VStack {
-            RatingsView(rating: item.rating)
+//            Text("\(Int(myRating))")
+            RatingsView(rating: .constant(item.rating))
             Image("\(item.id)_100w")
         }
         .navigationTitle(item.name)
+        .focusable(true)
+        .digitalCrownRotation(
+            $myRating,
+            from: 0,
+            through: 6,
+            by: 1,
+            sensitivity: .low,
+            isContinuous: false,
+            isHapticFeedbackEnabled: true
+        )
     }
 }
 
